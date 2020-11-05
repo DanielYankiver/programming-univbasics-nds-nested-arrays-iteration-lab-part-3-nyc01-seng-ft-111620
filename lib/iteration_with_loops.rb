@@ -4,7 +4,7 @@ require 'pry'
 # Combine all Strings present in the AoA into a single value and return it
   
 def join_nested_strings(src)
-  string = ""
+  string = []
   row_index = 0
   while row_index < src.count do
     element_index = 0
